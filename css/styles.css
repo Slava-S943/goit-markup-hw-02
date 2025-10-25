@@ -1,0 +1,56 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* font-family: "Raleway", sans-serif; */
+
+/* #region header */
+.page-header {
+}
+
+.page-nav {
+}
+
+.main-logo {
+}
+
+.nav-list {
+}
+
+.nav-list-item {
+}
+
+.nav-link {
+}
+
+.header-address {
+}
+
+.header-address-list {
+}
+
+.header-address-item {
+}
+
+.header-address-link {
+}
+/* #endregion header */
+
+/* #region Hero section */
+.section-hero {
+}
+
+.hero-title {
+}
+
+.hero-btn {
+}
+/* #endregion Hero section */
