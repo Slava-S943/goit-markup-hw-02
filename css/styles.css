@@ -25,7 +25,7 @@ body {
 .main-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -54,10 +54,11 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -72,7 +73,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 
 .header-address-link:hover,
@@ -131,6 +131,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .values-item-text {
@@ -149,7 +150,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -161,6 +162,7 @@ body {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-img {
