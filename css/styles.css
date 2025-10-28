@@ -23,9 +23,22 @@ body {
 }
 
 .main-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
 }
 
-.nav-list {
+.logo-accent {
+  color: #2e2f42;
+}
+
+.nav-list:hover,
+:focus {
+  color: #2e2f42;
 }
 
 .nav-list-item {
@@ -59,23 +72,27 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 /* #endregion header */
 
 /* #region Hero section */
 .section-hero {
+  background-color: #2e2f42;
 }
 
 .hero-title {
-  ont-weight: 700;
+  font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
 }
 
 .hero-btn {
@@ -83,12 +100,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
 }
 
-.hero-btn {
-  cursor: pointer;
+.hero-btn:hover,
+:focus {
+  background-color: #404bbf;
 }
-cursor: pointer;
+
 /* #endregion Hero section */
 
 /* #region Values section */
@@ -96,6 +117,7 @@ cursor: pointer;
 }
 
 .values-title {
+  color: #2e2f42;
 }
 
 .values-list {
@@ -121,6 +143,7 @@ cursor: pointer;
 
 /* #region Team section */
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -128,9 +151,13 @@ cursor: pointer;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-item {
@@ -144,6 +171,7 @@ cursor: pointer;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-member-role {
@@ -161,8 +189,11 @@ cursor: pointer;
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-list {
@@ -179,6 +210,7 @@ cursor: pointer;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-item-categori {
@@ -191,9 +223,21 @@ cursor: pointer;
 
 /* #region Footer */
 .footer {
+  background-color: #2e2f42;
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-accent {
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -201,5 +245,6 @@ cursor: pointer;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 /* #endregion Footer */
