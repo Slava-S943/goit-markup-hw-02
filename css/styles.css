@@ -32,7 +32,7 @@ body {
   color: #4d5ae5;
 }
 
-.logo-accent {
+.page-header .logo-accent {
   color: #2e2f42;
 }
 
@@ -238,7 +238,7 @@ body {
   color: #4d5ae5;
 }
 
-.logo-accent {
+.footer .logo-accent {
   color: #f4f4fd;
 }
 
