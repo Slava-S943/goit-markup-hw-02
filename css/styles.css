@@ -4,10 +4,13 @@ ul {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /* font-family: "Raleway", sans-serif; */
@@ -29,6 +32,16 @@ body {
 }
 
 .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #4d5ae5;
 }
 
 .header-address {
@@ -41,6 +54,16 @@ body {
 }
 
 .header-address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #4d5ae5;
 }
 /* #endregion header */
 
@@ -49,10 +72,23 @@ body {
 }
 
 .hero-title {
+  ont-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
+
+.hero-btn {
+  cursor: pointer;
+}
+cursor: pointer;
 /* #endregion Hero section */
 
 /* #region Values section */
@@ -69,9 +105,17 @@ body {
 }
 
 .values-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .values-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #endregion Values section */
 
@@ -80,6 +124,10 @@ body {
 }
 
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
 }
 
 .team-list {
@@ -92,9 +140,17 @@ body {
 }
 
 .team-member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-member-role {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #endregion Team section */
 
@@ -103,6 +159,10 @@ body {
 }
 
 .portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-list {
@@ -115,9 +175,17 @@ body {
 }
 
 .portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-item-categori {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #endregion Portfolio section */
 
@@ -129,5 +197,9 @@ body {
 }
 
 .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #endregion Footer */
